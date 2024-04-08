@@ -1,0 +1,74 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+@keyframes zoomIn {from { opacity: 0;transform: scale(0);}
+                   to {opacity: 1;transform: scale(1);}
+}
+
+@keyframes slideInLeft {
+       from {opacity: 0;transform: translateX(-100%);}
+       to { opacity: 1; transform: translateX(0);}
+}
+   
+
+header{background-image: url(./img/bg-masthead.jpg); text-align: center; background-size: 100%; background-repeat: no-repeat; background-position: 0px -120px; font-family: Arial, Helvetica, sans-serif;
+       h1{font-size: 70px;margin-top: 200px; margin-bottom: 10px;animation-name: zoomIn; animation-duration: 2s;}
+       p{font-size: 25px; margin-bottom: 30px; font-style: italic; animation-name: zoomIn; animation-duration: 2s;}
+       button{background-color: #1D809F; color: white; height: 50px; width: 150px; border: #1D809F; font-weight: bold; margin-bottom: 200px; border-radius: 5px;animation-name: zoomIn; animation-duration: 1s;}
+       .nav{display: flex; flex-wrap: wrap; background-color: #917A2E; width: 50px; height: 50px; justify-content: center; align-items: center;margin-right: 40px; margin-top: 10px; border-radius: 5px;}
+       .bar{display: flex; justify-content: end;animation-name: zoomIn; animation-duration: 1s;}
+       .menu{display: flex; color: white;opacity: 100%; font-size: 25px;}
+}
+
+.offer{text-align: center;background-color: white;
+       h2{font-size: 30px; margin-top: 100px; font-family: Arial, Helvetica, sans-serif; margin-bottom: 10px;}
+       p{font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; margin-bottom: 50px; color: #000000a2; font-size: 17.5px;}
+       button{background-color: #000000a2; color: white; height: 50px; width: 150px; border: #000000a2; font-weight: bold; margin-bottom: 100px; border-radius: 5px}
+}
+
+.services{background-color: #1D809F; color: white; text-align: center; font-family: Arial, Helvetica, sans-serif;
+          h4{color: #D9B216; padding-top: 100px; font-weight: bolder; font-size: 12.5px;}
+          h2{margin-bottom: 50px; font-size: 40px;}
+          .icons{display: flex; justify-content: space-around; }
+          .icon{display: flex; justify-content: center; align-items: center; background-color: white; border-radius: 100%; img{width: 20px; height: 35px}; height: 100px; width: 100px; margin-bottom: 20px;}
+          h3{margin-bottom: 10px;}
+          #pen{img{width: 30px;height: 30px;}}
+          #like{img{width: 30px; height: 30px;}}
+          #mustache{img{width: 30px; height: 30px;}}
+          .box{display: flex; flex-direction: column; justify-content: center; align-items: center;}
+          p{margin-bottom: 70px;color: #ffffff67;}
+}
+
+.download{background-image: url(./img/bg-callout.jpg); background-repeat: no-repeat; background-size: 100%; text-align: center; font-family: Arial, Helvetica, sans-serif; background-position: 0px -130px;
+          h2{padding-top: 200px; font-size: 50px;}
+          button{background-color: #1D809F; color: white; height: 50px; width: 150px; border: #1D809F; font-weight: bold; margin-bottom: 200px; border-radius: 5px ; margin-top: 50px;}
+}
+
+.portfolio{text-align: center; font-family: Arial, Helvetica, sans-serif; position: relative; 
+           h4{color: #D9B216; padding-top: 100px; font-weight: bolder; font-size: 12.5px;}
+           h2{margin-bottom: 50px; font-size: 40px;}
+           .port{display: flex; justify-content: center; flex-wrap: wrap;
+           img{width: 40%;height: 40%;}}
+           .text1{position: absolute; bottom: 450px; left: 200px; z-index: 500; text-align: left; color: #ffffff;}
+           .text2{position: absolute;bottom: 450px; right: 260px; z-index: 500; text-align: left; color: #ffffff;}
+           .text3{position: absolute; bottom: 90px; left: 200px; z-index: 500; text-align: left; color: #ffffff;}
+           .text4{position: absolute; bottom: 90px; right: 260px; z-index: 500; text-align: left; color: #ffffff;}
+           h5{font-weight: bolder;}
+           p{color: #ffffff98;}
+
+}
+
+.buttonss{background-color: #1D809F; color: white; text-align: center; font-family: Arial, Helvetica, sans-serif; margin-top: 70px;
+          h3{font-size: 30px; padding-top: 100px; padding-bottom: 20px;}
+          button{background-color:  #ffffff; color: rgb(0, 0, 0); height: 70px; width: 150px; border:  #ffffff; font-weight: bolder; margin-bottom: 100px; border-radius: 5px ; margin-top: 50px; margin-right: 10px; font-size: medium;}
+          #b2{background-color:  #000000a2; color: white; height: 70px; width: 150px; border:  #000000a2; font-weight: bolder; margin-bottom: 100px; border-radius: 5px ; margin-top: 50px; margin-right: 10px; font-size: medium;}
+
+}
+
+.map{background-image: url(./img/map.jpeg); height: 70vh;background-repeat: no-repeat;background-size: 100% 100%; width: 100%;}
+
+footer{background-color: white;color: rgba(0, 0, 0, 0.5); font-family: Arial, Helvetica, sans-serif; text-align: center;
+       .social{display: flex; justify-content: center; align-items: center;}
+       .media{display: flex; justify-content: center; align-items: center; background-color: #1D809F; border-radius: 100%; height: 50px; width: 50px; margin-top: 70px; margin-left: 10px; margin-right: 10px;border-color: #1D809F;}
+       .iconss{display: flex; justify-content: center;align-items: center; img{width: 20px; height: 20px;}}
+       p{margin-bottom: 70px; margin-top: 50px;}
+}

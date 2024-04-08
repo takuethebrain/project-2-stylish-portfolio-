@@ -1,0 +1,40 @@
+
+@font-face {
+    font-family: saltandpepper;
+    src: url(./SaltAndPepper.ttf);
+}
+
+@font-face {
+    font-family: awesomereg;
+    src: url(./Font\ Awesome\ 6\ Brands-Regular-400.otf);
+}
+
+@font-face {
+    font-family: awesomebold ;
+    src: url(./Font\ Awesome\ 6\ Free-Solid-900.otf);
+}
+
+@font-face {
+    font-family: awesomeorg;
+    src: url(./Font\ Awesome\ 6\ Free-Regular-400.otf);
+}
+
+@font-face {
+    font-family: firareg;
+    src: url(./FiraSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: firabold;
+    src: url(./FiraSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: firalight;
+    src: url(./FiraSans-Light.ttf);
+}
+
+@font-face {
+    font-family: firaitalic;
+    src: url(./FiraSans-Italic.ttf);
+}
