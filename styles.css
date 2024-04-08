@@ -296,11 +296,7 @@ header .menu {
   font-size: medium;
 }
 
-.map {
-  background-image: url(./img/map.jpeg);
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+.map img {
   width: 100%;
 }
 
